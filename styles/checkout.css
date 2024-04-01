@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.button-shopping{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+.shopping-cart{
+  height: 20px;
+  color: aqua;
+}
+.shopping-cart-count{
+  position: absolute;
+  top: 48px;
+  margin-left: 3px;
+  color: #505157;
+}
+.asdsadasdasdsa{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.containter{
+  display: flex;
+}
+.product-content{
+  display: flex;
+  height: 100%;
+  max-height: 300px;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+.product-about{
+  margin-right: 20px;
+}
+.product-img{
+  height: 100%;
+  max-height: 300px;
+  width: 100%;
+  max-width: 300px;
+}
+.product-name{
+  margin-top: 40px;
+  font-size: 40px;
+}
+.product-price{
+  color: rgb(197, 43, 43);
+  font-weight: bold;
+  font-size: 20px;
+}
+.quantity-count{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  gap: 10px;
+}
+.price-container{
+  border: 1px solid;
+}
+.product-quantity{
+  font-size: 20px;
+}
+.product-edit{
+  display: flex;
+  gap: 10px;
+}
+.update-button-css{
+  padding: 8px 20px;
+  border: none;
+  border-radius: 25px;
+}
+.price-container{
+  margin-bottom: 10px;
+}
+.price-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.price-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Price-text{
+  font-size: 30px;
+  margin-left: 10px;
+}
+.ewan-q-dito{
+  font-size: 30px;
+  margin-left: 10px;
+}
+.place-order-button{
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: rgb(224, 198, 163);
+}
+.js-total-price{
+  font-size: 30px;
+  margin-left: 10px;
+}
+audio::-webkit-media-controls {
+  display: none !important;
+}
+#myAudio{
+  position: absolute;
+}
+#myAudi{
+  position: absolute;
+}

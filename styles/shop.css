@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.grid-style{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  margin-top: 20px; 
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px rgb(0, 0, 1), -1px -1px 1px rgb(0, 0, 1);
+  background-color: #ffff;
+  overflow: hidden;
+}
+.content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.food-pic{
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}
+.food-about{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+.food-price{
+  color: rgb(197, 43, 43);
+}
+.button-place{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.buy-button-shop{
+  width: calc(100% - 5px);
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 5px;
+  background-color: rgb(224, 198, 163);
+}
+.buy-button-shop:active{
+  opacity: .7;
+}
+.food-name{
+  font-size: 25px;
+}
+.button-shopping{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+.button-shopping:active{
+  opacity: .7;
+}
+.shopping-cart{
+  height: 20px;
+  color: aqua;
+}
+.shopping-cart-count{
+  position: absolute;
+  top: 48px;
+  margin-left: 3px;
+  color: #505157;
+}
